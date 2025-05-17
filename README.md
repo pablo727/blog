@@ -3,10 +3,10 @@ Welcome to the Django Blog Project, a full-featured blogging platform built with
 
 This project showcases a practical, production-ready setup featuring CRUD functionality, user accounts, templating, static assets, and Docker-based deployment using Gunicorn and PostgreSQL.
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 Check out the live site here: https://my-blog-test.fly.dev/
 
-# Features
+## Features
 - Blog app: Create, read, update, and delete blog posts with a clean and user-friendly interface.
 
 - Accounts app: User registration, authentication, and profile management.
@@ -23,13 +23,13 @@ Check out the live site here: https://my-blog-test.fly.dev/
 
 - Deployed on Fly.io: Fast and scalable hosting platform.
 
-# ⌨️Getting Started
+## ⌨️Getting Started
 Prerequisites
 Docker installed on your machine
 
 Fly CLI for deployment if you want to push updates: Fly.io CLI
 
-# 🐋Running Locally with Docker
+## 🐋Running Locally with Docker
 1. Clone the repository
 
 ```bash
@@ -51,7 +51,7 @@ docker run -it -p 8000:8000 \
 ```
 4. Open your browser at http://localhost:8000
 
-# Project Structure
+## Project Structure
 ```php
 Copy
 Edit
@@ -67,10 +67,10 @@ blog/
 ├── fly.toml           # Fly.io deployment config
 └── requirements.txt   # Python dependencies
 ```
-# Deployment
+## Deployment
 This project is deployed on Fly.io, taking advantage of Docker containerization for seamless scaling and global availability.
 
-# 💻Tech Stack
+## 💻Tech Stack
 - Python 3.12 (slim)
 
 - Django
@@ -83,12 +83,12 @@ This project is deployed on Fly.io, taking advantage of Docker containerization 
 
 - Fly.io
 
-# Future Improvements
+## Future Improvements
 - Add REST API endpoints for headless CMS capabilities
 
 - Integrate CI/CD pipelines for automated testing and deployment
 
 - Enhance UI with responsive design and modern CSS frameworks
 
-# 📑License
+## 📑License
 This project is open source and available under the MIT License.
