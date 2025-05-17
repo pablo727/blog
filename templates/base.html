@@ -3,7 +3,7 @@
  <html>
     <head>
         <title>Django blog</title>
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="{% static 'css/base.css' %}">
     </head>
 
@@ -25,8 +25,10 @@
         <a href="{% url 'login' %}">Log In</a>
         <a href="{% url 'signup' %}">Sign Up</a>
         {% endif %}
-        {% block content %}
-        {% endblock content %}
+        <main>
+          {% block content %}
+          {% endblock content %}
+        </main>
         </div>
     </body>
  </html>
