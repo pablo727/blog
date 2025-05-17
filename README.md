@@ -3,8 +3,12 @@ Welcome to the Django Blog Project, a full-featured blogging platform built with
 
 This project showcases a practical, production-ready setup featuring CRUD functionality, user accounts, templating, static assets, and Docker-based deployment using Gunicorn and PostgreSQL.
 
+---
+
 ## 🚀 Live Demo
 🌐  Check out the live site here: https://my-blog-test.fly.dev/
+
+---
 
 ## Features
 - 📝  Blog app: Create, read, update, and delete blog posts with a clean and user-friendly interface.
@@ -23,11 +27,14 @@ This project showcases a practical, production-ready setup featuring CRUD functi
 
 - ☁️ Deployed on Fly.io: Fast and scalable hosting platform.
 
-## ⌨️ Getting Started
-Prerequisites
-Docker installed on your machine
+---
 
-Fly CLI for deployment if you want to push updates: Fly.io CLI
+## ⌨️ Getting Started
+✅ Prerequisites
+- [Docker](https://www.docker.com/) installed on your machine  
+- [Fly CLI](https://fly.io/docs/hands-on/install-flyctl/) for deployment (optional)
+
+---
 
 ## 🐋 Running Locally with Docker
 1. Clone the repository
@@ -53,8 +60,6 @@ docker run -it -p 8000:8000 \
 
 ## 🗂️ Project Structure
 ```php
-Copy
-Edit
 blog/
 │
 ├── blog/              # Django project root (settings, URLs, wsgi)
@@ -67,6 +72,9 @@ blog/
 ├── fly.toml           # Fly.io deployment config
 └── requirements.txt   # Python dependencies
 ```
+
+---
+
 ## 🚢  Deployment
 This project is deployed on Fly.io, taking advantage of Docker containerization for seamless scaling and global availability.
 
@@ -77,6 +85,8 @@ This project is deployed on Fly.io, taking advantage of Docker containerization 
 ![Docker](https://img.shields.io/badge/Docker-ready-blue?logo=docker)
 ![Gunicorn](https://img.shields.io/badge/Gunicorn-enabled-green)
 ![Fly.io](https://img.shields.io/badge/Deployed-Fly.io-purple?logo=fly.io)
+
+---
 
 ## 📑License
 This project is open source and available under the MIT License.
