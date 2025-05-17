@@ -11,44 +11,46 @@ This project showcases a practical, production-ready setup featuring CRUD functi
 ---
 
 ## Features
-- 📝  Blog app: Create, read, update, and delete blog posts with a clean and user-friendly interface.
+- 📝  **Blog app**: Create, read, update, and delete blog posts with a clean and user-friendly interface.
 
-- 👤 Accounts app: User registration, authentication, and profile management.
+- 👤 **Accounts app**: User registration, authentication, and profile management.
 
-- 🧩 Templates: Django templating engine to render dynamic HTML pages.
+- 🧩 **Templates**: Django templating engine to render dynamic HTML pages.
 
-- 🎨 Static files: CSS, JavaScript, and images served efficiently using Django static files setup.
+- 🎨 **Static files**: CSS, JavaScript, and images served efficiently using Django static files setup.
 
-- 🐘 PostgreSQL: Reliable, production-grade database support.
+- 🐘 **PostgreSQL**: Reliable, production-grade database support.
 
-- 🐳 Dockerized: Easy to build, run, and deploy using Docker.
+- 🐳 **Dockerized**: Easy to build, run, and deploy using Docker.
 
-- 🐍 Production-ready server: Runs with Gunicorn for efficient request handling.
+- 🐍 **Production-ready server**: Runs with Gunicorn for efficient request handling.
 
-- ☁️ Deployed on Fly.io: Fast and scalable hosting platform.
+- ☁️ **Deployed on Fly.io**: Fast and scalable hosting platform.
 
 ---
 
 ## ⌨️ Getting Started
-✅ Prerequisites
+### ✅ Prerequisites
 - [Docker](https://www.docker.com/) installed on your machine  
 - [Fly CLI](https://fly.io/docs/hands-on/install-flyctl/) for deployment (optional)
 
 ---
 
-## 🐋 Running Locally with Docker
-1. Clone the repository
+### 🐋 Running Locally with Docker
+# Clone the repository
 
 ```bash
 git clone https://github.com/your-username/blog.git
 cd blog
 ```
-2. Build the Docker image
+
+# Build the Docker image
 
 ```bash
 docker build -t django-blog .
 ```
-3. Run the container, passing your secret key and database info as environment variables
+
+# Run the container, passing your secret key and database info as environment variables
 
 ```bash
 docker run -it -p 8000:8000 \
@@ -56,7 +58,8 @@ docker run -it -p 8000:8000 \
    -e DATABASE_URL="postgres://user:password@host:port/dbname" \
    django-blog
 ```
-4. Open your browser at http://localhost:8000
+
+# Open your browser at http://localhost:8000
 
 ## 🗂️ Project Structure
 ```php
