@@ -71,17 +71,6 @@ blog/
 This project is deployed on Fly.io, taking advantage of Docker containerization for seamless scaling and global availability.
 
 ## 💻 Tech Stack
-- 🐍 Python 3.12 
-
-- 🌐 Django
-
-- 🦄 Gunicorn
-
-- 🐘 PostgreSQL
-
-- 🐳 Docker
-
-- 🚀 Fly.io
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![Django](https://img.shields.io/badge/Django-4.x-success?logo=django)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-blue?logo=postgresql)
