@@ -1,9 +1,9 @@
-#Django Blog Project
+# Django Blog Project
 Welcome to the Django Blog Project, a full-featured blogging platform built with Django and deployed on Fly.io.
 
 This project showcases a practical, production-ready setup featuring CRUD functionality, user accounts, templating, static assets, and Docker-based deployment using Gunicorn and PostgreSQL.
 
-#🚀 Live Demo
+# 🚀 Live Demo
 Check out the live site here: https://my-blog-test.fly.dev/
 
 # Features
@@ -23,13 +23,13 @@ Check out the live site here: https://my-blog-test.fly.dev/
 
 - Deployed on Fly.io: Fast and scalable hosting platform.
 
-# Getting Started
+# ⌨️Getting Started
 Prerequisites
 Docker installed on your machine
 
 Fly CLI for deployment if you want to push updates: Fly.io CLI
 
-# Running Locally with Docker
+# 🐋Running Locally with Docker
 1. Clone the repository
 
 ```bash
@@ -67,10 +67,10 @@ blog/
 ├── fly.toml           # Fly.io deployment config
 └── requirements.txt   # Python dependencies
 ```
-#Deployment
+# Deployment
 This project is deployed on Fly.io, taking advantage of Docker containerization for seamless scaling and global availability.
 
-#Tech Stack
+# 💻Tech Stack
 - Python 3.12 (slim)
 
 - Django
